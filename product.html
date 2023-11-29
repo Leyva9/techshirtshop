@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='es'>
+  <head>
+    <!-- Metadatos -->
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='SEO description'>
+    <meta name='keywords' content='HTML, CSS, Java Script, React'>
+    <meta name='robot' content='index, follow'>
+    <!-- Título -->
+    <title>DevTshirt Shop</title>
+    <!-- Favicon -->
+    <link rel='icon' type='image/x-icon' href='./img/logo.png'>
+    <!-- Styles -->
+    <link rel='preload' href='css/style.css' as='style'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- Script -->
+    <script src='./js/main.js'></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img src="img/logo.png" alt="logotipo" class="header__logo">
+      </a>
+    </header>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Tienda</a>
+      <a class="navigation__link" href="about.html">Nosotros</a>
+    </nav>
+    <main class="container">
+        <h1>ReactJS</h1> 
+
+        <div class="t-shirt">
+            <img class="t-shirt__img" src="./img/3.jpg" alt="a t-shirt">
+            <div class="t-shirt__content">
+                <p>Etiam ac rhoncus lorem, vitae imperdiet lorem. Etiam ac rhoncus lorem, vitae imperdiet lorem. Etiam ac rhoncus lorem, vitae imperdiet lorem.</p>
+                <form class="form">
+                    <select class="form__field" name="form" id="" required>
+                        <option disabled selected value="">--Seleccionar Talla--</option>
+                        <option value="s">Pequeña</option>
+                        <option value="m">Mediana</option>
+                        <option value="l">Grande</option>
+                        <option value="xl">Muy Grande</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="cantidad" min="1" required>
+                    <input class="form__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Front-End Store Todos los derechos reservados 2023.</p>
+    </footer>
+  </body>
+</html>
